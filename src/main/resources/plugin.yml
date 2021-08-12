@@ -1,0 +1,17 @@
+name: Announcements
+version: ${project.version}
+main: com.weirtz.announcements.Main
+api-version: 1.17
+authors: [ brendan_weirtz ]
+description: Recurring server announcements
+website: weirtz.com
+commands:
+  announcements:
+    description: Announcements helper
+    usage: /<command>
+    aliases: [announce, announcer]
+    permission: announcements.*
+permissions:
+  announcements.*:
+    description: Allows all annoucement commands
+    default: op

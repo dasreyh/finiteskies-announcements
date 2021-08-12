@@ -1,0 +1,35 @@
+# Plugin Created By Brendan Weirtz | Dasreyh
+
+# Color Codes https://www.digminecraft.com/lists/color_list_pc.php
+# Symbols https://coolsymbol.com/
+
+# Toggle the announcements On and Off
+plugin-enabled: true
+
+# Plugin Prefix
+announcer-prefix: "&f[&dAnnouncements&f]"
+
+# Delay between announcements (Seconds)
+message-delay: 600
+
+# Randomize announcement order
+randomised: false
+
+# 10 Line maximum per announcement.
+Messages:
+  announcement1:
+    - " "
+    - "&d&lVisit our website at finiteskies.com!"
+    - " "
+  announcement2:
+    - " "
+    - "&d&lGAME TIP: &f--------------------"
+    - "&f Protect your land! /land"
+    - "&f------------------------------"
+    - " "
+  announcement3:
+    - " "
+    - "&d&lGAME TIP: &f--------------------"
+    - "&f Teleport to other players! /tpa"
+    - "&f------------------------------"
+    - " "
