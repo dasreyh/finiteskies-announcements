@@ -13,5 +13,5 @@ commands:
     permission: announcements.*
 permissions:
   announcements.*:
-    description: Allows all annoucement commands
+    description: Allows all announcement commands
     default: op
